@@ -1,0 +1,58 @@
+                                                                                                                                                                                                                                                                            31 Jul 2023 09:34:51
+Civil Air Patrol Use Only
+Place-Dubai, Harbin, Istanbul, Jakarta, Karachi, Moscow, Nairobi, Sanya, Shanghai, Urumqi, Xian:  LLA Position
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   25.252       55.280    0.000000
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   45.750      126.650    0.000000
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   41.019       28.965    0.000000
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   -6.174      106.829    0.000000
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   24.867       67.050    0.000000
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   55.752       37.616    0.000000
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   -1.283       36.817    0.000000
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   18.243      109.505    0.000000
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   31.109      121.368    0.000000
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   43.800       87.583    0.000000
+
+
+Lat (deg)    Lon (deg)    Alt (km)
+---------    ---------    --------
+   34.258      108.929    0.000000
