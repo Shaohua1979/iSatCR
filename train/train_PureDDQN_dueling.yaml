@@ -1,0 +1,67 @@
+general:
+  phase: "train"
+  random_seed: 42
+  epsilon: 0.9
+  epsilon_decay: 0.999
+  min_epsilon: 0.02
+  begin_time: "2023-10-01 00:00:00"
+  time_stride: 1
+  rounds: 1
+  skip_time: !!python/tuple [60,0]
+  duration: 6000
+  reward_factors: !!python/tuple [1,0.05,1,0.1,0.25]
+  print_cycle: 10
+  select_mode: 1
+
+
+agent:
+  mode: "Pure_DQN"
+  neighbors_dim: 16
+  edges_dim: 4
+  distance_dim: 4
+  mission_dim: 6
+  current_dim: 3
+  action_dim: 5
+  hidden_dim: 256
+  buffer_length: 500000
+  batch_size: 1024
+  gamma: 0.99
+  q_mask: -1
+  activation: "LeakyRelu"
+  hidden_layers: 2
+  dueling: true
+  shuffle: false
+  learning_rate: 0.0002
+  repeat: 10
+  update_cycle: 30
+  model_path: '.\model_weights\PureDDQN_dueling.pth'
+
+environment:
+  mission_possibility: [0.5, 0.5]
+  poisson_rate: 30
+  packet_frequency: 0.5
+  computing_demand_factor: [150, 250]
+  computing_demand_factor_2: [300, 500]
+  size_after_computing_factor: [0.08, 0.125]
+  size_after_computing_1: !!python/float 40e3
+  mean_interval_time: 30
+  memory: !!python/float 12e9
+  computing_ability: !!python/float 50e9
+  transmission_rate: !!python/float 1.2e9
+  downlink_rate: !!python/float 3e9
+  downstream_delays: 0.0016667
+  packet_size_range: [!!python/float 200e6, !!python/float 600e6]
+  state_update_period: 0.1
+  visualize: true
+  print_info: false
+  del_cycle: 30
+  save_log: false
+  show_detail: false
+  random_edges_del: 15
+  random_nodes_del: 0
+  elevation_angle: 45
+  update_cycle: 10
+  pole: false
+  tle_filepath: "./Satellite_Data/60Degree_500_12x24_tles.txt"
+  SOD_file_path: "./Ground_Data/11_ground_stations.txt"
+  save_training_data: "train_PureDDQN_dueling.txt"
